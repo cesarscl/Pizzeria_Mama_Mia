@@ -1,19 +1,17 @@
-# 🍕 Pizzería Mamma Mia!
+# Pizzería Mamma Mia!
 
 Hito 1 - Introducción a React | Desafío Latam - Fullstack JS
 
-## 🔗 Accesos al proyecto
+## Accesos al proyecto
 
-| Recurso | Enlace |
-|---|---|
-| 🌐 Demo en vivo | **[pizzeria-mama-mia-one.vercel.app](https://pizzeria-mama-mia-one.vercel.app/)** |
+ Demo en vivo (vercel) **[pizzeria-mama-mia-one.vercel.app](https://pizzeria-mama-m ia-one.vercel.app/)** |
 
 
-## 📋 Descripción
+## Descripción
 
 Landing page de una pizzería desarrollada con **React + Vite**, construida a partir de componentes reutilizables y estilizada con **Bootstrap 5**. Muestra un menú de pizzas cargado mediante *props*, un navbar con estado simulado de sesión y un footer institucional.
 
-## 🧩 Componentes
+## Componentes
 
 ```
 App.jsx
@@ -28,13 +26,13 @@ App.jsx
 - **CardPizza.jsx**: componente reutilizable que recibe `name`, `price`, `ingredients` e `img` por props, usado 3 veces desde `Home.jsx`.
 - **utils/helpers.js**: función `formatPrice` reutilizada en `Navbar` y `CardPizza`.
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - [React 19](https://react.dev/)
 - [Vite](https://vitejs.dev/)
 - [Bootstrap 5](https://getbootstrap.com/)
 
-## 🚀 Cómo correr el proyecto en local
+## Cómo correr el proyecto en local
 
 ```bash
 git clone https://github.com/cesarscl/pizzeria-mamma-mia.git
@@ -45,7 +43,7 @@ npm run dev
 
 Abre [http://localhost:5173](http://localhost:5173) en tu navegador.
 
-## 📦 Otros scripts
+## Otros scripts
 
 ```bash
 npm run build     # genera la versión de producción en /dist
@@ -53,7 +51,7 @@ npm run preview   # sirve la build de producción localmente
 npm run lint      # revisa el código con ESLint
 ```
 
-## ✅ Requerimientos del Hito 1
+## Requerimientos del Hito 1
 
 - [x] `App.jsx` muestra `Navbar`, `Home` y `Footer`
 - [x] `Header.jsx` con título y descripción, llamado desde `Home.jsx`
@@ -62,6 +60,6 @@ npm run lint      # revisa el código con ESLint
 - [x] `CardPizza.jsx` recibe nombre, precio, ingredientes e imagen por props
 - [x] `Footer.jsx` con el texto de derechos reservados
 
-## ✍️ Autor
+## Autor
 
 Cesar — Desafío Latam, Fullstack JS, Módulo 04
