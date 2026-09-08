@@ -4,7 +4,7 @@ Hito 1 - Introducción a React | Desafío Latam - Fullstack JS
 
 ## Accesos al proyecto
 
- Demo en vivo (vercel) **[pizzeria-mama-mia-one.vercel.app](https://pizzeria-mama-m ia-one.vercel.app/)** |
+ Demo en vivo (vercel) **[pizzeria-mama-mia-one.vercel.app](https://pizzeria-mama-mia-one.vercel.app/)** |
 
 
 ## Descripción
