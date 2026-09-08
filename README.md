@@ -9,7 +9,7 @@ Hito 1 - Introducción a React | Desafío Latam - Fullstack JS
 
 ## Descripción
 
-Landing page de una pizzería desarrollada con **React + Vite**, construida a partir de componentes reutilizables y estilizada con **Bootstrap 5**. Muestra un menú de pizzas cargado mediante *props*, un navbar con estado simulado de sesión y un footer institucional.
+Landing page de una pizzería desarrollada con **React + Vite**. Muestra un menú de pizzas cargado mediante *props*, un navbar con estado simulado de sesión y un footer institucional.
 
 ## Componentes
 
@@ -23,7 +23,7 @@ App.jsx
 ```
 
 - **Navbar.jsx**: botones Home y Total (siempre visibles) + Login/Register o Profile/Logout según la variable booleana `token`. El total se formatea con separador de miles usando `toLocaleString`.
-- **CardPizza.jsx**: componente reutilizable que recibe `name`, `price`, `ingredients` e `img` por props, usado 3 veces desde `Home.jsx`.
+- **CardPizza.jsx**: Recibe `name`, `price`, `ingredients` e `img` por props, usado 3 veces desde `Home.jsx`.
 - **utils/helpers.js**: función `formatPrice` reutilizada en `Navbar` y `CardPizza`.
 
 ## Tecnologías
